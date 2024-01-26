@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 459px;
+    background-image: url("/assets/images/header_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+}
+
+.container-header {
+    width: 757px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-header h1 {
+    color: #fff;
+    font-family: 'Luckiest Guy';
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.container-header p {
+    color: #fff;
+    font-family: open sans;
+    font-size: 16px;
+}
+
+.btn1 {
+    width: 205px;
+    border-radius: 2rem;
+    color: black;
+    background-color: white;
+    margin-right: 5px;
+
+}
+
+.btn2 {
+    width: 281px;
+    border-radius: 2rem;
+    color: white;
+    background-color: black;
+    margin-left: 5px;
+
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* //////// Fim do Header //////// */
+
+
+/* //////// MAIN START //////// */
+main {
+    width: auto;
+}
+
+#section01 {
+    width: 100%;
+    max-width: 971px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 40px 0 40px 0;
+    gap: 20px;
+}
+
+.image-section {
+    width: 50%;
+    flex-direction: column;
+}
+
+.info {
+    width: 50%;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.info h1 {
+    color: #23272A;
+    font-family: open sans;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sectiongrey {
+    background-color: #f2f2f2;
+    margin: auto;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+#section02 {
+    width: 100%;
+    max-width: 971px;
+    display: flex;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    gap: 20px;
+}
+
+
+.info2 {
+    width: 50%;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.info2 h1 {
+    color: black;
+    font-family: open sans;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sectiongrey4 {
+    background-color: #f2f2f2;
+    padding: 40px 0 40px 0;
+}
+
+#section04 {
+    background-color: #f2f2f2;
+    width: 757px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info4 {
+    /* width: 100%;
+    margin: 20px;
+    padding: 10px; */
+}
+
+.info4 h1 {
+    color: #23272A;
+    font-family: 'Luckiest Guy';
+    font-size: 56px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.info p {
+    text-align: center;
+}
+
+/* //////// MAIN END //////// */
+
+
+
+/* Início do Rodapé */
+footer {
+    background-color: #23272A;
+    width: 100%;
+    height: 100px;
+}
+
+.imgfooter {
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+/* FIM do Rodapé */
+
+
+
+/* Celulares */
+
+@media screen and (max-width: 430px) {
+
+    /* Header ///////////////////*/
+    .container-header {
+        margin: 20px;
+        width: 381px;
+    }
+
+    .container-header h1 {
+        color: #fff;
+        font-family: 'Luckiest Guy';
+        font-size: 32px;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .container-header p {
+        color: #fff;
+        font-family: open sans;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .btn1,
+    .btn2 {
+        margin: 5px;
+        width: 361px;
+        height: 54px;
+    }
+
+    /* main /////////////////// */
+    /* seção 01 */
+    #section01 {
+        width: 100%;
+        max-width: 430px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: 40px 0 40px 0;
+        gap: 20px;
+    }
+
+    .image-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .info {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .info h1 {
+        color: #23272A;
+        font-family: open sans;
+        font-size: 24px;
+        font-weight: 800;
+        text-align: left;
+        padding: 0 20px 0 20px;
+    }
+
+    .info p {
+        text-align: left;
+        padding: 0 20px 0 20px;
+    }
+
+    /* seção 02 */
+    #section02 {
+        width: 100%;
+        max-width: 430px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .info2 {
+        width: 100%;
+        flex-direction: column;
+        margin: 20px;
+        padding: 10px;
+        order: 2;
+    }
+
+    .info2 h1 {
+        color: #23272A;
+        font-family: open sans;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .info2 p {
+        text-align: left;
+        margin-right: 40px;
+    }
+
+    /* seção 04 */
+    #section04 {
+        width: 430px;
+        max-width: 430px;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px 0 20px;
+
+    }
+
+    .info4 {
+        width: 100%;
+        margin: 20px;
+        /* padding: 10px; */
+    }
+
+    .info4 h1 {
+        color: #23272A;
+        font-family: 'Luckiest Guy';
+        font-size: 32px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .info4 p {
+        text-align: left;
+        margin-right: 40px;
+
+    }
+
+    .section-img4 {
+        width: 90%;
+        /* padding-right: 60px; */
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 720px) {
+        main {
+            flex-direction: row;
+            gap: 24px;
+            max-width: 1200px;
+            margin: 16px auto;
+        }
+
+        nav ul {
+            flex-direction: row;
+        }
+
+        nav ul li {
+            flex: 1;
+            text-align: center;
+        }
+    }
+
+    #presentation {
+        flex-basis: 500px;
+    }
+
+    #skills,
+    #education {
+        flex: 1;
+    } */
